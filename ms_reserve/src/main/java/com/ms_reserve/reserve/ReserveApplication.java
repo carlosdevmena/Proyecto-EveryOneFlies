@@ -1,4 +1,4 @@
-package com.betek.ms_flies;
+package com.ms_reserve.reserve;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,11 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableFeignClients
-public class MsFliesApplication {
+public class ReserveApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MsFliesApplication.class, args);
+		SpringApplication.run(ReserveApplication.class, args);
 	}
-
+		// ms clients communication
+		// database persistence
 }
